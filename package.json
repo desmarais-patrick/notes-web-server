@@ -1,0 +1,22 @@
+{
+  "name": "notes-web-server",
+  "version": "1.0.0",
+  "description": "Child for notes project; web server between API and static files",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desmarais-patrick/notes-web-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desmarais-patrick/notes-web-server/issues"
+  },
+  "homepage": "https://github.com/desmarais-patrick/notes-web-server#readme"
+}
