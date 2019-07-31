@@ -21,13 +21,13 @@ class Router {
      */
     route(incomingMessage, serverResponse) {
         // Try "/api" --> ApiController.relay()
-        // Catch if down and signal 500 as JSON!
+        // Catch if down and signal 500 as JSON! ==> Move to controller!
 
         // "/_ah/health" --> HealthController.status()
 
         // Try "*" --> FileController.get()
-        // Catch if down or inaccessible and return 500.html or default one.
-        // Catch if 404 and return 404.html
+        // Catch if down or inaccessible and return 500.html or default one. ==> Move to controller!
+        // Catch if 404 and return 404.html ==> Move to controller!
     }
 }
 
